@@ -29,7 +29,7 @@ class Pedido {
         }
 
         this.usuario_id = new ObjectId(usuario_id);
-        this.endereco_entrega = new ObjectId(endereco_entrega);  
+        this.endereco_entrega = endereco_entrega; // Agora salva como texto  
 
         // Processar os itens para snapshot e cálculo de totais
         this.itens = itens.map(item => {
