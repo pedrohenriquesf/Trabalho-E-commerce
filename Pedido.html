@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Pedido</title>
+</head>
+<body>
+  <h2>Cadastro de Pedido</h2>
+  <form action="/api/pedidos" method="POST">
+    <label for="id">ID do Pedido:</label><br>
+    <input type="text" id="id" name="id" readonly value="(gerado automaticamente)"><br><br>
+
+    <label for="usuario_id">ID do Usuário:</label><br>
+    <input type="number" id="usuario_id" name="usuario_id" required><br><br>
+
+    <label for="itens">Itens (formato: produto_id:quantidade):</label><br>
+    <textarea id="itens" name="itens" rows="3" required></textarea><br><br>
+
+    <label for="status">Status:</label><br>
+    <select id="status" name="status" required>
+      <option value="pendente">Pendente</option>
+      <option value="em_processamento">Em Processamento</option>
+      <option value="enviado">Enviado</option>
+      <option value="entregue">Entregue</option>
+      <option value="cancelado">Cancelado</option>
+    </select><br><br>
+
+    <label for="forma_pagamento">Forma de Pagamento:</label><br>
+    <select id="forma_pagamento" name="forma_pagamento" required>
+      <option value="boleto">Boleto</option>
+      <option value="cartao_credito">Cartão de Crédito</option>
+      <option value="pix">PIX</option>
+      <option value="transferencia">Transferência Bancária</option>
+    </select><br><br>
+
+    <label for="data_pedido">Data do Pedido:</label><br>
+    <input type="date" id="data_pedido" name="data_pedido" required><br><br>
+
+    <button type="submit">Cadastrar Pedido</button>
+  </form>
+</body>
+</html>
