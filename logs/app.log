@@ -1,0 +1,150 @@
+[2025-06-03T23:02:39.129Z] [INFO] Iniciando script de teste do banco de dados...
+[2025-06-03T23:02:39.139Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Console"}
+[2025-06-03T23:02:39.138Z] [INFO] --- Testando Categoria ---
+[2025-06-03T23:02:39.209Z] [INFO] Conectado ao MongoDB.
+[2025-06-03T23:02:39.267Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f7f0f602206f1912d50a9","nome":"Console"}
+[2025-06-03T23:02:39.268Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.267Z] [INFO] Categoria inserida: 683f7f0f602206f1912d50a9
+[2025-06-03T23:02:39.267Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Jogo Digital"}
+[2025-06-03T23:02:39.272Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.272Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f7f0f602206f1912d50aa","nome":"Jogo Digital"}
+[2025-06-03T23:02:39.286Z] [INFO] Buscou todas as 2 categorias.
+[2025-06-03T23:02:39.292Z] [INFO] Instância de Usuário criada. - Details: {"email":"alice@example.com"}
+[2025-06-03T23:02:39.293Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.291Z] [INFO] --- Testando Usuario ---
+[2025-06-03T23:02:39.310Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f7f0f602206f1912d50ab","email":"alice@example.com"}
+[2025-06-03T23:02:39.310Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.310Z] [INFO] Usuário inserido: 683f7f0f602206f1912d50ab
+[2025-06-03T23:02:39.310Z] [INFO] Instância de Usuário criada. - Details: {"email":"luccas@example.com"}
+[2025-06-03T23:02:39.314Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f7f0f602206f1912d50ac","email":"luccas@example.com"}
+[2025-06-03T23:02:39.316Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.315Z] [INFO] Usuário inserido: 683f7f0f602206f1912d50ac
+[2025-06-03T23:02:39.321Z] [INFO] Buscou todos os 2 usuários.
+[2025-06-03T23:02:39.326Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.332Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f7f0f602206f1912d50ab"}
+[2025-06-03T23:02:39.335Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.333Z] [INFO] Usuário Alice buscado por ID:
+[2025-06-03T23:02:39.344Z] [INFO] Usuário atualizado com sucesso. - Details: {"id":"683f7f0f602206f1912d50ab","modifiedCount":1}
+[2025-06-03T23:02:39.345Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.348Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f7f0f602206f1912d50ab"}
+[2025-06-03T23:02:39.350Z] [INFO] --- Testando Produto ---
+[2025-06-03T23:02:39.349Z] [INFO] Usuário Alice atualizado:
+[2025-06-03T23:02:39.354Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.354Z] [INFO] Instância de Produto criada. - Details: {"nome":"PlayStation 5"}
+[2025-06-03T23:02:39.375Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f7f0f602206f1912d50ad","nome":"PlayStation 5"}
+[2025-06-03T23:02:39.375Z] [INFO] Produto inserido: 683f7f0f602206f1912d50ad
+[2025-06-03T23:02:39.376Z] [INFO] Instância de Produto criada. - Details: {"nome":"Xbox Series X"}
+[2025-06-03T23:02:39.376Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.380Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f7f0f602206f1912d50ae","nome":"Xbox Series X"}
+[2025-06-03T23:02:39.381Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:02:39.381Z] [INFO] Produto inserido: 683f7f0f602206f1912d50ae
+[2025-06-03T23:02:39.388Z] [WARN] Campo obrigatório 'nome' ausente na atualização. - Details: {"updateData":{"estoque":45,"descricao":"Console com drive de disco."}}
+[2025-06-03T23:02:39.385Z] [INFO] Buscou todos os 2 produtos.
+[2025-06-03T23:02:39.390Z] [ERROR] Erro fatal no script de seed/teste: - Error: Campo obrigatório 'nome' ausente na atualização. - Stack: Error: Campo obrigatório 'nome' ausente na atualização.
+    at Produto.atualizar (C:\Users\tayna\Google_Drive\GRADUACAO\8ºPeriodo\Programação BackEnd\Trabalho - parte 1\versao2_projeto_disciplina\projeto_disciplina\models\Produto.js:89:23)
+    at runSeed (C:\Users\tayna\Google_Drive\GRADUACAO\8ºPeriodo\Programação BackEnd\Trabalho - parte 1\versao2_projeto_disciplina\projeto_disciplina\teste.js:88:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-06-03T23:02:39.397Z] [INFO] Conexão MongoDB fechada.
+[2025-06-03T23:02:39.398Z] [INFO] Conexão com MongoDB fechada após script.
+[2025-06-03T23:27:24.612Z] [INFO] Iniciando script de teste do banco de dados...
+[2025-06-03T23:27:24.616Z] [INFO] --- Testando Categoria ---
+[2025-06-03T23:27:24.616Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Console"}
+[2025-06-03T23:27:24.654Z] [INFO] Conectado ao MongoDB.
+[2025-06-03T23:27:24.668Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec261","nome":"Console"}
+[2025-06-03T23:27:24.669Z] [INFO] Categoria inserida: 683f84dc4a4fca6afb3ec261
+[2025-06-03T23:27:24.669Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.669Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Jogo Digital"}
+[2025-06-03T23:27:24.673Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec262","nome":"Jogo Digital"}
+[2025-06-03T23:27:24.673Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.686Z] [INFO] --- Testando Usuario ---
+[2025-06-03T23:27:24.680Z] [INFO] Buscou todas as 4 categorias.
+[2025-06-03T23:27:24.688Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.687Z] [INFO] Instância de Usuário criada. - Details: {"email":"alice@example.com"}
+[2025-06-03T23:27:24.691Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec263","email":"alice@example.com"}
+[2025-06-03T23:27:24.691Z] [INFO] Usuário inserido: 683f84dc4a4fca6afb3ec263
+[2025-06-03T23:27:24.692Z] [INFO] Instância de Usuário criada. - Details: {"email":"luccas@example.com"}
+[2025-06-03T23:27:24.692Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.696Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec264","email":"luccas@example.com"}
+[2025-06-03T23:27:24.697Z] [INFO] Usuário inserido: 683f84dc4a4fca6afb3ec264
+[2025-06-03T23:27:24.698Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.703Z] [INFO] Buscou todos os 4 usuários.
+[2025-06-03T23:27:24.709Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.714Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f84dc4a4fca6afb3ec263"}
+[2025-06-03T23:27:24.714Z] [INFO] Usuário Alice buscado por ID:
+[2025-06-03T23:27:24.717Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.722Z] [INFO] Usuário atualizado com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec263","modifiedCount":1}
+[2025-06-03T23:27:24.723Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.727Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f84dc4a4fca6afb3ec263"}
+[2025-06-03T23:27:24.730Z] [INFO] --- Testando Produto ---
+[2025-06-03T23:27:24.733Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.727Z] [INFO] Usuário Alice atualizado:
+[2025-06-03T23:27:24.732Z] [INFO] Instância de Produto criada. - Details: {"nome":"PlayStation 5"}
+[2025-06-03T23:27:24.736Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec265","nome":"PlayStation 5"}
+[2025-06-03T23:27:24.736Z] [INFO] Produto inserido: 683f84dc4a4fca6afb3ec265
+[2025-06-03T23:27:24.738Z] [INFO] Instância de Produto criada. - Details: {"nome":"Xbox Series X"}
+[2025-06-03T23:27:24.738Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.742Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f84dc4a4fca6afb3ec266","nome":"Xbox Series X"}
+[2025-06-03T23:27:24.744Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:27:24.753Z] [ERROR] Erro fatal no script de seed/teste: - Error: produtoOriginalPs5 is not defined - Stack: ReferenceError: produtoOriginalPs5 is not defined
+    at runSeed (C:\Users\tayna\Google_Drive\GRADUACAO\8ºPeriodo\Programação BackEnd\Trabalho - parte 1\versao2_projeto_disciplina\projeto_disciplina\teste.js:88:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-06-03T23:27:24.757Z] [INFO] Conexão MongoDB fechada.
+[2025-06-03T23:27:24.743Z] [INFO] Produto inserido: 683f84dc4a4fca6afb3ec266
+[2025-06-03T23:27:24.749Z] [INFO] Buscou todos os 4 produtos.
+[2025-06-03T23:27:24.758Z] [INFO] Conexão com MongoDB fechada após script.
+[2025-06-03T23:33:03.391Z] [INFO] Iniciando script de teste do banco de dados...
+[2025-06-03T23:33:03.396Z] [INFO] --- Testando Categoria ---
+[2025-06-03T23:33:03.397Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Console"}
+[2025-06-03T23:33:03.452Z] [INFO] Conectado ao MongoDB.
+[2025-06-03T23:33:03.484Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f862fca11a39aed723a62","nome":"Console"}
+[2025-06-03T23:33:03.485Z] [INFO] Categoria inserida: 683f862fca11a39aed723a62
+[2025-06-03T23:33:03.486Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Jogo Digital"}
+[2025-06-03T23:33:03.486Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.492Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"683f862fca11a39aed723a63","nome":"Jogo Digital"}
+[2025-06-03T23:33:03.494Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.507Z] [INFO] Buscou todas as 6 categorias.
+[2025-06-03T23:33:03.518Z] [INFO] --- Testando Usuario ---
+[2025-06-03T23:33:03.521Z] [INFO] Instância de Usuário criada. - Details: {"email":"alice@example.com"}
+[2025-06-03T23:33:03.522Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.526Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f862fca11a39aed723a64","email":"alice@example.com"}
+[2025-06-03T23:33:03.530Z] [INFO] Usuário inserido: 683f862fca11a39aed723a64
+[2025-06-03T23:33:03.531Z] [INFO] Instância de Usuário criada. - Details: {"email":"luccas@example.com"}
+[2025-06-03T23:33:03.532Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.540Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"683f862fca11a39aed723a65","email":"luccas@example.com"}
+[2025-06-03T23:33:03.552Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.564Z] [INFO] Buscou todos os 6 usuários.
+[2025-06-03T23:33:03.581Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.548Z] [INFO] Usuário inserido: 683f862fca11a39aed723a65
+[2025-06-03T23:33:03.590Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f862fca11a39aed723a64"}
+[2025-06-03T23:33:03.590Z] [INFO] Usuário Alice buscado por ID:
+[2025-06-03T23:33:03.596Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.612Z] [INFO] Usuário atualizado com sucesso. - Details: {"id":"683f862fca11a39aed723a64","modifiedCount":1}
+[2025-06-03T23:33:03.612Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.624Z] [INFO] --- Testando Produto ---
+[2025-06-03T23:33:03.623Z] [INFO] Usuário Alice atualizado:
+[2025-06-03T23:33:03.628Z] [INFO] Instância de Produto criada. - Details: {"nome":"PlayStation 5"}
+[2025-06-03T23:33:03.623Z] [INFO] Usuário encontrado por ID. - Details: {"id":"683f862fca11a39aed723a64"}
+[2025-06-03T23:33:03.628Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.632Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f862fca11a39aed723a66","nome":"PlayStation 5"}
+[2025-06-03T23:33:03.639Z] [INFO] Instância de Produto criada. - Details: {"nome":"Xbox Series X"}
+[2025-06-03T23:33:03.633Z] [INFO] Produto inserido: 683f862fca11a39aed723a66
+[2025-06-03T23:33:03.639Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.643Z] [INFO] Produto inserido com sucesso. - Details: {"id":"683f862fca11a39aed723a67","nome":"Xbox Series X"}
+[2025-06-03T23:33:03.644Z] [INFO] Produto inserido: 683f862fca11a39aed723a67
+[2025-06-03T23:33:03.657Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.644Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.649Z] [INFO] Buscou todos os 6 produtos.
+[2025-06-03T23:33:03.661Z] [INFO] Produto encontrado por ID. - Details: {"id":"683f862fca11a39aed723a66"}
+[2025-06-03T23:33:03.662Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.667Z] [INFO] Produto atualizado com sucesso. - Details: {"id":"683f862fca11a39aed723a66","modifiedCount":1}
+[2025-06-03T23:33:03.670Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-03T23:33:03.674Z] [INFO] Produto encontrado por ID. - Details: {"id":"683f862fca11a39aed723a66"}
+[2025-06-03T23:33:03.678Z] [WARN] O carrinho deve conter ao menos um item. - Details: {"itens":"683f862fca11a39aed723a64"}
+[2025-06-03T23:33:03.678Z] [ERROR] Erro fatal no script de seed/teste: - Error: O carrinho deve conter ao menos um item. - Stack: Error: O carrinho deve conter ao menos um item.
+    at new Carrinho (C:\Users\tayna\Google_Drive\GRADUACAO\8ºPeriodo\Programação BackEnd\Trabalho - parte 1\versao2_projeto_disciplina\projeto_disciplina\models\Carrinho.js:10:19)
+    at runSeed (C:\Users\tayna\Google_Drive\GRADUACAO\8ºPeriodo\Programação BackEnd\Trabalho - parte 1\versao2_projeto_disciplina\projeto_disciplina\teste.js:114:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-06-03T23:33:03.674Z] [INFO] PS5 atualizado:
+[2025-06-03T23:33:03.687Z] [INFO] Conexão MongoDB fechada.
+[2025-06-03T23:33:03.687Z] [INFO] Conexão com MongoDB fechada após script.
+[2025-06-03T23:33:03.677Z] [INFO] --- Testando Carrinho ---
