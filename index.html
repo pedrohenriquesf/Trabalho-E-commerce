@@ -34,8 +34,14 @@
   <!-- Sessão de Produtos -->
   <main id="produtos" class="container py-5">
     <h2 class="text-center text-info mb-4">Produtos em Destaque</h2>
+
+    <!-- Barra de Pesquisa -->
+    <div class="text-center mb-4">
+      <input type="text" id="barraBusca" class="form-control w-50 mx-auto" placeholder="Buscar produtos..." oninput="buscarProdutos()">
+    </div>
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
+      <div class="col produto">
         <div class="card h-100 bg-black text-light border-danger">
           <img src="img/ps5.png" class="card-img-top" alt="PlayStation 5">
           <div class="card-body">
@@ -45,7 +51,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
+
+      <div class="col produto">
         <div class="card h-100 bg-black text-light border-danger">
           <img src="img/rtx4080.png" class="card-img-top" alt="RTX 4080">
           <div class="card-body">
@@ -55,7 +62,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
+
+      <div class="col produto">
         <div class="card h-100 bg-black text-light border-danger">
           <img src="img/headset.png" class="card-img-top" alt="Headset HyperX">
           <div class="card-body">
@@ -76,6 +84,23 @@
       <a href="#" class="text-decoration-none text-danger">Termos de Uso</a>
     </p>
   </footer>
+
+  <!-- Script de busca -->
+  <script>
+    function buscarProdutos() {
+      const termo = document.getElementById("barraBusca").value.toLowerCase();
+      const produtos = document.querySelectorAll(".produto");
+
+      produtos.forEach(produto => {
+        const titulo = produto.querySelector(".card-title").textContent.toLowerCase();
+        if (titulo.includes(termo)) {
+          produto.style.display = "block";
+        } else {
+          produto.style.display = "none";
+        }
+      });
+    }
+  </script>
 </body>
 
 </html>
