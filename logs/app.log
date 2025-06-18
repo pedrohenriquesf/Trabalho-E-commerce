@@ -554,3 +554,108 @@
 [2025-06-06T04:56:17.826Z] [INFO] Script de população e teste finalizado com sucesso!
 [2025-06-06T04:56:17.828Z] [INFO] Conexão MongoDB fechada.
 [2025-06-06T04:56:17.828Z] [INFO] Conexão com MongoDB fechada após script.
+[2025-06-18T00:38:13.158Z] [INFO] Iniciando script de teste do banco de dados...
+
+[2025-06-18T00:38:13.161Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Console"}
+[2025-06-18T00:38:13.161Z] [INFO] --- Testando Categoria ---
+
+[2025-06-18T00:38:13.184Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.259Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42a9","nome":"Console"}
+[2025-06-18T00:38:13.260Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.260Z] [INFO] Categoria inserida: 68520a753f8e6d6a0fda42a9
+[2025-06-18T00:38:13.260Z] [INFO] Instância de Categoria criada. - Details: {"nome":"Jogo Digital"}
+[2025-06-18T00:38:13.261Z] [INFO] Categoria inserida com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42aa","nome":"Jogo Digital"}
+[2025-06-18T00:38:13.262Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.274Z] [INFO] Buscou todas as 2 categorias.
+[2025-06-18T00:38:13.282Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.281Z] [INFO] Instância de Usuário criada. - Details: {"email":"alice@example.com"}
+[2025-06-18T00:38:13.280Z] [INFO] 
+--- Testando Usuario ---
+
+[2025-06-18T00:38:13.297Z] [INFO] Instância de Usuário criada. - Details: {"email":"luccas@example.com"}
+[2025-06-18T00:38:13.296Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ab","email":"alice@example.com"}
+[2025-06-18T00:38:13.297Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.297Z] [INFO] Usuário inserido: 68520a753f8e6d6a0fda42ab
+
+[2025-06-18T00:38:13.299Z] [INFO] Usuário inserido: 68520a753f8e6d6a0fda42ac
+[2025-06-18T00:38:13.299Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.299Z] [INFO] Usuário inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ac","email":"luccas@example.com"}
+[2025-06-18T00:38:13.301Z] [INFO] Buscou todos os 2 usuários.
+[2025-06-18T00:38:13.302Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.306Z] [INFO] Usuário encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42ab"}
+[2025-06-18T00:38:13.306Z] [INFO] Usuário Alice buscado por ID:
+[2025-06-18T00:38:13.307Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.315Z] [INFO] Usuário atualizado com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ab","modifiedCount":1}
+[2025-06-18T00:38:13.316Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.318Z] [INFO] Usuário encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42ab"}
+[2025-06-18T00:38:13.318Z] [INFO] Usuário Alice atualizado:
+[2025-06-18T00:38:13.322Z] [INFO] Instância de Produto criada. - Details: {"nome":"PlayStation 5"}
+[2025-06-18T00:38:13.323Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.319Z] [INFO] 
+--- Testando Produto ---
+
+[2025-06-18T00:38:13.333Z] [INFO] Produto inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ad","nome":"PlayStation 5"}
+[2025-06-18T00:38:13.333Z] [INFO] Produto inserido: 68520a753f8e6d6a0fda42ad
+[2025-06-18T00:38:13.333Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.333Z] [INFO] Instância de Produto criada. - Details: {"nome":"Xbox Series X"}
+[2025-06-18T00:38:13.335Z] [INFO] Produto inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ae","nome":"Xbox Series X"}
+[2025-06-18T00:38:13.335Z] [INFO] Produto inserido: 68520a753f8e6d6a0fda42ae
+[2025-06-18T00:38:13.335Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.337Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.336Z] [INFO] Buscou todos os 2 produtos.
+[2025-06-18T00:38:13.339Z] [INFO] Produto encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42ad"}
+[2025-06-18T00:38:13.339Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.341Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.341Z] [INFO] Produto atualizado com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42ad","modifiedCount":1}
+[2025-06-18T00:38:13.342Z] [INFO] Produto encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42ad"}
+[2025-06-18T00:38:13.342Z] [INFO] PS5 atualizado:
+[2025-06-18T00:38:13.343Z] [INFO] 
+--- Testando Carrinho ---
+
+[2025-06-18T00:38:13.344Z] [INFO] Instância de Carrinho criada. - Details: {"itens":2,"usuario_id":"68520a753f8e6d6a0fda42ab","total":{"$numberDecimal":"8299.99"}}
+[2025-06-18T00:38:13.344Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.353Z] [INFO] Carrinho inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42af"}
+[2025-06-18T00:38:13.353Z] [INFO] Carrinho inserido para Alice: 68520a753f8e6d6a0fda42af
+[2025-06-18T00:38:13.353Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.355Z] [INFO] Buscou todos os 1 carrinhos.
+[2025-06-18T00:38:13.356Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.357Z] [INFO] Carrinho encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42af"}
+[2025-06-18T00:38:13.358Z] [INFO] Carrinho de Alice buscado por ID:
+[2025-06-18T00:38:13.359Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.359Z] [INFO] Instância de Pedido criada. - Details: {"usuario_id":"68520a753f8e6d6a0fda42ab","total_pedido":"8299.99","status":"pendente","forma_pagamento":"pix","endereco_entrega":{"rua":"Rua Goias","numero":"42","cidade":"Londrina","estado":"PR","cep":"12345-001"}}
+[2025-06-18T00:38:13.358Z] [INFO] 
+--- Testando Pedido ---
+
+[2025-06-18T00:38:13.371Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.368Z] [INFO] Pedido inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42b0"}
+[2025-06-18T00:38:13.371Z] [INFO] Pedido inserido para Alice: 68520a753f8e6d6a0fda42b0
+[2025-06-18T00:38:13.376Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.380Z] [INFO] Buscou todos os 1 pedidos.
+[2025-06-18T00:38:13.381Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.385Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.388Z] [INFO] Pedido atualizado com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42b0","modifiedCount":1}
+[2025-06-18T00:38:13.389Z] [INFO] Status atualizado com sucesso!
+[2025-06-18T00:38:13.389Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.393Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.398Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.397Z] [INFO] Pedido encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42b0"}
+[2025-06-18T00:38:13.402Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.410Z] [INFO] Pedido atualizado com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42b0","modifiedCount":1}
+[2025-06-18T00:38:13.412Z] [INFO] Forma de pagamento e endereço atualizados com sucesso!
+[2025-06-18T00:38:13.412Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.418Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.423Z] [INFO] Pedido encontrado por ID. - Details: {"id":"68520a753f8e6d6a0fda42b0"}
+[2025-06-18T00:38:13.424Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.426Z] [INFO] Instância de Pagamento criada. - Details: {"pedido_id":"68520a753f8e6d6a0fda42b0","valor":{"$numberDecimal":"8299.99"},"status":"aprovado","metodo_pagamento":"pix"}
+[2025-06-18T00:38:13.425Z] [INFO] Pedido de Alice após atualização completa:
+[2025-06-18T00:38:13.425Z] [INFO] 
+--- Testando Pagamento ---
+
+[2025-06-18T00:38:13.430Z] [INFO] Conectado ao MongoDB.
+[2025-06-18T00:38:13.443Z] [INFO] Pagamento inserido para Pedido: 68520a753f8e6d6a0fda42b0
+[2025-06-18T00:38:13.443Z] [INFO] Pagamento inserido com sucesso. - Details: {"id":"68520a753f8e6d6a0fda42b1"}
+[2025-06-18T00:38:13.444Z] [INFO] Reutilizando conexão MongoDB.
+[2025-06-18T00:38:13.445Z] [INFO] Script de população e teste finalizado com sucesso!
+[2025-06-18T00:38:13.445Z] [INFO] Buscou todos os 1 pagamentos.
+[2025-06-18T00:38:13.446Z] [INFO] Conexão MongoDB fechada.
+[2025-06-18T00:38:13.446Z] [INFO] Conexão com MongoDB fechada após script.

@@ -48,3 +48,11 @@ Projeto de E-commerce Gamer utilizando Node.js e MongoDB.
 - O projeto atualmente não possui backend HTTP implementado em [`app.js`](app.js).
 - Para testar as operações de CRUD, utilize o script [`teste.js`](teste.js).
 - Os logs das operações ficam em [`logs/app.log`](logs/app.log).
+
+
+## Intalaçoes comandos 
+-- npm init -y
+-- npm install mongo
+-- npm install dotenv
+-- npm install mustache
+-- npm install express
